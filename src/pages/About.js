@@ -10,6 +10,11 @@ export default function About() {
             <Link to="/">
                 Go Home
             </Link>
+            <div>
+                <Link to="/meme/">
+                    Dank memes
+                </Link> 
+            </div>
             </div>
         </div>
     )
