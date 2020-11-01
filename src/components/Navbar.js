@@ -6,6 +6,9 @@ export default class Navbar extends Component {
     render() {
         return (
             <nav className="navbar">
+                <div>
+                    AKJ Scratch 
+                </div>
                 <div className="nav-center">
                     <ul>
                         <li>

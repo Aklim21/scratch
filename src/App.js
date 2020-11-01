@@ -10,6 +10,9 @@ import About from "./pages/About"
 import Code from "./pages/Code"
 import Error from "./pages/Error"
 import MemeGen from "./pages/MemeGen"
+import Rainbow from "./pages/Rainbow"
+import Form from "./pages/Form"
+
 
 import {Route, Switch} from 'react-router-dom'
 
@@ -23,6 +26,9 @@ function App() {
         <Route exact path="/about/" component={About}/>
         <Route exact path="/code/" component={Code}/>
         <Route exact path="/meme/" component={MemeGen}/>
+        <Route exact path="/rainbow/" component={Rainbow}/>
+        <Route exact path="/form/" component={Form}/>
+        
         <Route component={Error}/>
       </Switch>
     </>

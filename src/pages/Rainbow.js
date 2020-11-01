@@ -1,11 +1,11 @@
 import React from 'react'
-import MemeGenerator from '../components/Memegen'
+import Rainbow from '../components/Rainbow'
 
 
 export default function MemeGen() {
     return (
         <div>
-            <MemeGenerator/>
+            <Rainbow/>
         </div>
     )
 }

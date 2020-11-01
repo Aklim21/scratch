@@ -6,15 +6,11 @@ export default function About() {
     return (
         <div>
             This is about page.
+            About stuff here.
             <div>
             <Link to="/">
                 Go Home
             </Link>
-            <div>
-                <Link to="/meme/">
-                    Dank memes
-                </Link> 
-            </div>
             </div>
         </div>
     )
