@@ -10,14 +10,8 @@ export default class Navbar extends Component {
                     AKJ Scratch 
                 </div>
                 <div className="nav-center">
-                    <ul>
-                        <li>
-                            <Link to="/">Home</Link>
-                        </li>
-                        <li>
-                            <Link to="/about">About</Link>
-                        </li>
-                    </ul>
+                    <Link to="/">Home</Link>
+                    <Link to="/about">About</Link>
                 </div>
             </nav>
         )

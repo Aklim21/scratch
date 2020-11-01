@@ -1,6 +1,19 @@
 
+/*Default styling*/
 *{
   justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+/*navbar styling*/
+
+
+.nav-center{
+  display: flex;
+  justify-content: left;
+  text-align: left;
+  align-items: left;
 }
 
 
