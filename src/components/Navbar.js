@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import {Link} from 'react-router-dom'
-import menuButton from '../components/MenuButton'
+import MenuButton from '../components/MenuButton'
 
 export default class Navbar extends Component {
 
@@ -14,7 +14,9 @@ export default class Navbar extends Component {
                     <Link to="/">Home</Link>
                     <Link to="/about">About</Link>
                 </div>
-                <menuButton/>
+                <div className="nav-center">
+                    <MenuButton/>
+                </div>
                 
                 
             </nav>

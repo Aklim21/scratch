@@ -11,7 +11,12 @@ export default function SimpleMenu() {
   };
 
   const handleClose = () => {
-    setAnchorEl(null);
+    if(id === 'home'){
+        
+    }
+    else{
+
+    }
   };
 
   return (
@@ -26,9 +31,8 @@ export default function SimpleMenu() {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}>Profile</MenuItem>
-        <MenuItem onClick={handleClose}>My account</MenuItem>
-        <MenuItem onClick={handleClose}>Logout</MenuItem>
+        <MenuItem id="home" onClick={handleClose}>Home</MenuItem>
+        <MenuItem id="about" onClick={handleClose}>About</MenuItem>
       </Menu>
     </div>
   );

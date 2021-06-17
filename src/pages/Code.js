@@ -1,5 +1,5 @@
 import React from 'react'
-import {Link} from "react-router-dom"
+import Button from "@material-ui/core/Button"
 
 
 export default function Code() {
@@ -9,18 +9,29 @@ export default function Code() {
                 This is code page.
             </div>
             <div>
-                <Link to="/meme/">
-                    Dank memes
-                </Link> 
-                <br/>
-                <Link to="/rainbow/">
+                <Button 
+                    href="meme" 
+                    variant= 'contained'
+                    size= "large"    
+                >
+                    Dank Memes
+                </Button>
+                <Button 
+                    href="rainbow" 
+                    variant= 'contained'
+                    size= "large"    
+                >
                     Random Rainbows
-                </Link> 
-                <br/>
-                <Link to="/form/">
-                    Form
-                </Link> 
+                </Button>
+                <Button 
+                    href="form" 
+                    variant= 'contained'
+                    size= "large"    
+                >
+                    Forms
+                </Button>
             </div>
+
         </>
     )
 }
