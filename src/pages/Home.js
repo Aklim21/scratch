@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from "react-router-dom"
 import hello from "../images/hello.png"
+import Button from "@material-ui/core/Button"
 
 
 export default function Home() {
@@ -16,13 +17,13 @@ export default function Home() {
                 <br/>
                 This is home page.
             </div>
-            <div>
-                <Link to="/code/">
-                    Go code
-                </Link> 
-
-
-            </div>
+            <Button 
+                href="code" 
+                variant= 'contained'
+                size= "large"    
+            >
+                Go to code
+            </Button>
         </h1>
     )
 }
